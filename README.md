@@ -78,10 +78,4 @@ func main() {
 	fmt.Println(string(bytes))
 
 }
-
-// support methods
-
-func newBool(value bool) *bool {
-	return &value
-}
 ```
